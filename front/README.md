@@ -20,6 +20,7 @@
 Crie um arquivo `.env` na raiz do projeto e defina a URL da API backend:
 
 ```
+REACT_APP_SERVER_URL=http://localhost:3001
 REACT_APP_API_URL=http://localhost:3000
 ```
 
