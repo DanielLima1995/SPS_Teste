@@ -41,6 +41,25 @@ Node.js (recomendado: 16+ para o front e 18+ para a API)
 
 npm
 
+# Configuração Env Front
+
+Crie um arquivo .env dentro da pasta front:
+    front/.env
+
+Conteúdo:
+    REACT_APP_SERVER_URL=http://localhost:3001
+    REACT_APP_API_URL=http://localhost:3000
+
+
+# Configuração Env Back
+
+Crie um arquivo .env dentro da pasta api:
+    api/.env
+
+Conteúdo:
+    PORT=3000
+    JWT_SECRET=projeto_SPS
+
 # Como rodar o projeto completo
 
 Clonar o repositório
