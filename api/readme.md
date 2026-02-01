@@ -25,6 +25,13 @@ API Node.js com autenticação JWT, banco de dados em memória com persistência
 
 A API estará disponível em: http://localhost:3000
 
+#Configuração Env Back
+
+Crie um arquivo .env dentro da pasta api: api/.env
+
+PORT=3000 
+JWT_SECRET=projeto_SPS
+
 ## Rotas principais
 - `POST /login` — retorna um JWT ao autenticar com usuário e senha válidos.
 - `GET /usuarios` — lista usuários (protegida, requer JWT).
