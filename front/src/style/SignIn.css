@@ -1,0 +1,15 @@
+
+
+form {
+    width: 400px;
+    max-height: 400px;
+}
+
+.dv-externa {
+    width: fit-content;
+    height: fit-content;
+}
+
+button {
+    float: right;
+}
